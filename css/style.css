@@ -1,0 +1,104 @@
+/* ====== CSS Reset ====== */
+/* ====== CSS Reset ====== */
+/* ====== CSS Reset ====== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p{
+    font-size: 14px;
+}
+/* ====== Navigation ====== */
+/* ====== Navigation ====== */
+/* ====== Navigation ====== */
+.steve-poster{
+    background: url("https://cdn0.vox-cdn.com/thumbor/faKe8ZmK8RZAx02CCYY2xOUXoRA=/cdn0.vox-cdn.com/uploads/chorus_asset/file/4030798/3.0.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0;
+    padding: 40rem 0 0 0;
+}
+/* ====== Steve Jobs Banner ====== */
+/* ====== Steve Jobs Banner ====== */
+/* ====== Steve Jobs Banner ====== */
+section {
+    padding:.5rem;
+    margin:.5rem;
+}
+.banner-title {
+    background-color:#fff;
+    margin:-5rem 0 2rem 0;
+    padding: 1rem 0 0 0;
+}
+.banner-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 0;
+}
+.banner-title h2{
+    text-align: center;
+}
+/* ====== JumboTron Two ====== */
+/* ====== JumboTron Two ====== */
+/* ====== JumboTron Two ====== */
+.jumbotronTwo {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Apple_Garage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 30rem;
+    margin: 3rem 0 1rem 0;
+}
+/* ====== JumboTron Three ====== */
+/* ====== JumboTron Three ====== */
+/* ====== JumboTron Three ====== */
+.jumbotronThree { 
+    background: url("http://wallpapercave.com/wp/iXMDmnN.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 30rem;
+    margin: 3rem 0 1rem 0;
+}
+/* ====== Media Query Screen Size ====== */
+/* ====== Media Query Screen Size ====== */
+/* ====== Media Query Screen Size ====== */
+@media only screen and (max-width:1040px){
+  .title {
+    background-color:#fff;
+    margin-top:-8rem;
+    margin-bottom:4rem;
+    padding-top:5rem;
+    font-weight:bold;
+    font-size:5rem;
+  } 
+}
+#bio {
+  line-height:2rem;
+  text-indent:2rem; 
+}
+footer {
+  margin-top:3rem;
+  padding:2rem 0; 
+}
+.titleFoot {
+  font-weight:bold;
+  font-size:7rem; 
+}
+.final {
+  margin-top:-1rem; 
+}
+.aWiki {
+  font-weight:bold;
+  font-size:2rem; 
+}
